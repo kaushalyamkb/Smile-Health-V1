@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1082004919988",
+    "project_id": "smile-health-version-three",
+    "storage_bucket": "smile-health-version-three.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082004919988:android:6eea70ca5cd8f90ae569e1",
+        "android_client_info": {
+          "package_name": "com.example.smilehealthversionthree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082004919988-39n5r0n3n0a0ai1jh761ppjhm3uhnj6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtxWycBcwczmIKHW7Jt3hhYmADIodEHVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082004919988-39n5r0n3n0a0ai1jh761ppjhm3uhnj6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

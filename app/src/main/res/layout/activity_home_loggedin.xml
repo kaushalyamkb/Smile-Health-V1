@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="0dp">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="111dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_margin="20dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/home_logo_image"-->
+<!--            android:layout_width="129dp"-->
+<!--            android:layout_height="104dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/picture1"-->
+<!--            android:textAlignment="center" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/lantextact"-->
+<!--            android:layout_width="91dp"-->
+<!--            android:layout_height="38dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:fontFamily="@font/acme"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Language"-->
+<!--            android:textColor="@color/material_dynamic_neutral30"-->
+<!--            android:textSize="20sp"-->
+<!--            android:transitionName="logo_text" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/buttonlanact"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="44dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:text="ENGLISH" />-->
+
+
+            <ImageView
+                android:id="@+id/home_logo_image"
+                android:layout_width="129dp"
+                android:layout_height="104dp"
+                android:layout_gravity="center"
+                android:src="@drawable/picture1"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center" />
+    <TextView
+        android:id="@+id/homelogo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/acme"
+        android:paddingTop="50dp"
+        android:text="Hello there, Let's Start"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="40sp"
+        android:transitionName="logo_text" />
+
+    <TextView
+        android:id="@+id/homeslogan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="About our app"
+        android:textSize="20dp"
+
+        android:textStyle="bold"
+        android:transitionName="logo_desc" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Stress detector classifies a stressed individual from a normal one by acquiring his/her physiological signals through appropriate sensors"
+        android:textSize="18dp"
+
+        android:textStyle="bold"
+        android:transitionName="logo_desc" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/homeAutoGo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/teal_700"
+            android:text="Automated Process"
+            android:textColor="@color/black"
+            android:transitionName="button_tran" />
+        <Button
+            android:id="@+id/homeManual"
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/purple_200"
+            android:text="Manual Process"
+            android:textColor="@color/black"
+            android:transitionName="button_tran" />
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/purple_500"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu" />
+</RelativeLayout>
+</LinearLayout>
